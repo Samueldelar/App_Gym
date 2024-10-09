@@ -1,0 +1,27 @@
+{
+    "1": {
+        "nombre": "hola",
+        "edad": "20",
+        "contraseña": "123"
+    },
+    "2": {
+        "nombre": "Samuel",
+        "edad": "19",
+        "contraseña": "321"
+    },
+    "3": {
+        "nombre": "chao",
+        "edad": "29",
+        "contraseña": "456"
+    },
+    "5": {
+        "nombre": "apenas",
+        "edad": "11",
+        "contraseña": "123"
+    },
+    "12": {
+        "nombre": "sato",
+        "edad": "19",
+        "contraseña": "12"
+    }
+}
