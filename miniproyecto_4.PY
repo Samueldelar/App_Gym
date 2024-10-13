@@ -8,7 +8,7 @@ import json  # Importar para leer directamente el archivo JSON
 USERS_FILE = "users.json"
 
 # Folder path with images
-IMAGE_PATH = "C:/Users/Usuario/Desktop/Ejercicios"
+IMAGE_PATH = "C:\\Users\\Usuario\\Desktop\\miniproyecto\\imagenes"
 
 # Clase para manejar el inicio de sesión
 class LoginApp(tk.Tk):
@@ -66,32 +66,32 @@ class LoginApp(tk.Tk):
 # Exercise data by body part
 exercises = {
     "Brazos": [
-        {"nombre": "Curl de Bíceps", "series": 3, "repeticiones": 12, "descripcion": "Levanta pesas lentamente hasta que los bíceps estén contraídos.", "imagen": "curl martillo.jpeg"},
-        {"nombre": "Extensión de Tríceps", "series": 3, "repeticiones": 15, "descripcion": "Extiende los brazos hacia arriba sosteniendo la pesa y flexiona los codos.", "imagen": "extension de triceps.jpeg"},
-        {"nombre": "Flexiones de Brazos", "series": 3, "repeticiones": 10, "descripcion": "Acuéstate boca abajo y empuja tu cuerpo hacia arriba usando los brazos.", "imagen": "flexion de pecho.jpeg"},
-        {"nombre": "Fondos en Paralelas", "series": 3, "repeticiones": 8, "descripcion": "Bájate y súbete usando las barras paralelas, manteniendo el cuerpo recto.", "imagen": "fondos paralelas.jpeg"},
-        {"nombre": "Curl de Martillo", "series": 3, "repeticiones": 12, "descripcion": "Sostén las pesas de lado y realiza el curl manteniendo la posición.", "imagen": "curl martillo.jpeg"}
+        {"nombre": "Curl de Bíceps", "series": 3, "repeticiones": 12, "descripcion": "Levanta pesas lentamente hasta que los bíceps estén contraídos.", "imagen": "curl martillo.jpg"},
+        {"nombre": "Extensión de Tríceps", "series": 3, "repeticiones": 15, "descripcion": "Extiende los brazos hacia arriba sosteniendo la pesa y flexiona los codos.", "imagen": "extension de triceps.jpg"},
+        {"nombre": "Flexiones de Brazos", "series": 3, "repeticiones": 10, "descripcion": "Acuéstate boca abajo y empuja tu cuerpo hacia arriba usando los brazos.", "imagen": "flexion de pecho.jpg"},
+        {"nombre": "Fondos en Paralelas", "series": 3, "repeticiones": 8, "descripcion": "Bájate y súbete usando las barras paralelas, manteniendo el cuerpo recto.", "imagen": "fondos paralelas.jpg"},
+        {"nombre": "Curl de Martillo", "series": 3, "repeticiones": 12, "descripcion": "Sostén las pesas de lado y realiza el curl manteniendo la posición.", "imagen": "curl martillo.jpg"}
     ],
     "Piernas": [
-        {"nombre": "Sentadillas", "series": 4, "repeticiones": 10, "descripcion": "Baja lentamente el cuerpo hasta una posición de cuclillas y vuelve a subir.", "imagen": "sentadillas.jpeg"},
-        {"nombre": "Zancadas", "series": 3, "repeticiones": 12, "descripcion": "Da un paso largo hacia adelante y baja la cadera, manteniendo la espalda recta.", "imagen": "zancadas.jpeg"},
-        {"nombre": "Prensa de Piernas", "series": 3, "repeticiones": 10, "descripcion": "Usa la máquina de prensa para empujar el peso con las piernas.", "imagen": "prensa de piernas.jpeg"},
-        {"nombre": "Elevación de Talones", "series": 4, "repeticiones": 15, "descripcion": "Párate sobre la punta de los pies y baja lentamente los talones.", "imagen": "elevacion de talones.jpeg"},
-        {"nombre": "Peso Muerto", "series": 3, "repeticiones": 10, "descripcion": "Levanta una barra desde el suelo manteniendo la espalda recta.", "imagen": "peso muerto.jpeg"}
+        {"nombre": "Sentadillas", "series": 4, "repeticiones": 10, "descripcion": "Baja lentamente el cuerpo hasta una posición de cuclillas y vuelve a subir.", "imagen": "sentadillas.jpg"},
+        {"nombre": "Zancadas", "series": 3, "repeticiones": 12, "descripcion": "Da un paso largo hacia adelante y baja la cadera, manteniendo la espalda recta.", "imagen": "zancadas.jpg"},
+        {"nombre": "Prensa de Piernas", "series": 3, "repeticiones": 10, "descripcion": "Usa la máquina de prensa para empujar el peso con las piernas.", "imagen": "prensa de piernas.jpg"},
+        {"nombre": "Elevación de Talones", "series": 4, "repeticiones": 15, "descripcion": "Párate sobre la punta de los pies y baja lentamente los talones.", "imagen": "elevacion de talones.jpg"},
+        {"nombre": "Peso Muerto", "series": 3, "repeticiones": 10, "descripcion": "Levanta una barra desde el suelo manteniendo la espalda recta.", "imagen": "peso muerto.jpg"}
     ],
     "Pecho": [
-        {"nombre": "Press de Banca", "series": 4, "repeticiones": 10, "descripcion": "Acostado en un banco, empuja la barra hacia arriba desde el pecho.", "imagen": "prensa de banca.jpeg"},
-        {"nombre": "Flexiones de Pecho", "series": 3, "repeticiones": 12, "descripcion": "Realiza flexiones con las manos en el suelo y el cuerpo recto.", "imagen": "flexion de pecho.jpeg"},
-        {"nombre": "Aperturas con Mancuernas", "series": 3, "repeticiones": 12, "descripcion": "Acuéstate en un banco y abre los brazos sosteniendo mancuernas.", "imagen": "apertura mancuernas.jpeg"},
-        {"nombre": "Press de Pecho en Máquina", "series": 3, "repeticiones": 10, "descripcion": "Usa la máquina de press para trabajar el pecho.", "imagen": "press de pecho en maquina.jpeg"},
-        {"nombre": "Dips de Pecho", "series": 3, "repeticiones": 8, "descripcion": "Bájate y súbete usando barras, inclinando el cuerpo hacia adelante.", "imagen": "dips de pecho.jpeg"}
+        {"nombre": "Press de Banca", "series": 4, "repeticiones": 10, "descripcion": "Acostado en un banco, empuja la barra hacia arriba desde el pecho.", "imagen": "prensa de banca.jpg"},
+        {"nombre": "Flexiones de Pecho", "series": 3, "repeticiones": 12, "descripcion": "Realiza flexiones con las manos en el suelo y el cuerpo recto.", "imagen": "flexion de pecho.jpg"},
+        {"nombre": "Aperturas con Mancuernas", "series": 3, "repeticiones": 12, "descripcion": "Acuéstate en un banco y abre los brazos sosteniendo mancuernas.", "imagen": "apertura mancuernas.jpg"},
+        {"nombre": "Press de Pecho en Máquina", "series": 3, "repeticiones": 10, "descripcion": "Usa la máquina de press para trabajar el pecho.", "imagen": "press de pecho en maquina.jpg"},
+        {"nombre": "Dips de Pecho", "series": 3, "repeticiones": 8, "descripcion": "Bájate y súbete usando barras, inclinando el cuerpo hacia adelante.", "imagen": "dips de pecho.jpg"}
     ],
     "Espalda": [
-        {"nombre": "Dominadas", "series": 3, "repeticiones": 8, "descripcion": "Cuélgate de una barra y eleva tu cuerpo hacia arriba.", "imagen": "dominadas espalda.jpeg"},
-        {"nombre": "Remo con Mancuernas", "series": 3, "repeticiones": 10, "descripcion": "Inclínate hacia adelante y jala las mancuernas hacia tu abdomen.", "imagen": "remo con mancuernas.jpeg"},
-        {"nombre": "Peso Muerto", "series": 3, "repeticiones": 10, "descripcion": "Levanta una barra desde el suelo manteniendo la espalda recta.", "imagen": "peso muerto espalda.jpeg"},
-        {"nombre": "Jalón al Pecho", "series": 3, "repeticiones": 10, "descripcion": "Usa la máquina de jalón para tirar hacia abajo con las manos.", "imagen": "jalon pecho.jpeg"},
-        {"nombre": "Hiperextensiones", "series": 3, "repeticiones": 12, "descripcion": "Acostado boca abajo en un banco, eleva el torso hacia arriba.", "imagen": "hiperextrexiones.jpeg"}
+        {"nombre": "Dominadas", "series": 3, "repeticiones": 8, "descripcion": "Cuélgate de una barra y eleva tu cuerpo hacia arriba.", "imagen": "dominadas espalda.jpg"},
+        {"nombre": "Remo con Mancuernas", "series": 3, "repeticiones": 10, "descripcion": "Inclínate hacia adelante y jala las mancuernas hacia tu abdomen.", "imagen": "remo con mancuernas.jpg"},
+        {"nombre": "Peso Muerto", "series": 3, "repeticiones": 10, "descripcion": "Levanta una barra desde el suelo manteniendo la espalda recta.", "imagen": "peso muerto espalda.jpg"},
+        {"nombre": "Jalón al Pecho", "series": 3, "repeticiones": 10, "descripcion": "Usa la máquina de jalón para tirar hacia abajo con las manos.", "imagen": "jalon pecho.jpg"},
+        {"nombre": "Hiperextensiones", "series": 3, "repeticiones": 12, "descripcion": "Acostado boca abajo en un banco, eleva el torso hacia arriba.", "imagen": "hiperextrexiones.jpg"}
     ]
 }
 
